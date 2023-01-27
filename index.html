@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="./assets/favicon.png"
+            type="image/x-icon"
+        />
+        <title>Internet Engineering Class Home</title>
+    </head>
+    <body>
+        <!-- *** MENU *** -->
+        <div class="menu-wrapper">
+            <input type="checkbox" id="menuToggler" />
+            <label for="menuToggler" class="menu-toggler">
+                <div class="bar top"></div>
+                <div class="bar mid"></div>
+                <div class="bar bottom"></div>
+            </label>
+            <ul class="menu">
+                <li class="menu-item"><a href="#start">01 Start</a></li>
+                <li class="menu-item">
+                    <a href="#lectures">02 course lectures</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#related-books">03 related Books</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- *** Header ***  -->
+        <header class="header" id="start">
+            <div class="blue-overlay overlay"></div>
+            <div class="header-content container">
+                <h1>
+                    internet <br />
+                    engineering
+                </h1>
+                <p>
+                    is what we are going to <br />
+                    learn in this course
+                </p>
+                <a href="#related-books" class="progress-hover rounded-link-btn"
+                    >see this course related books</a
+                >
+            </div>
+        </header>
+        <main>
+            <!-- *** Lectures *** -->
+            <section class="lectures" id="lectures">
+                <div class="gradient-overlay overlay"></div>
+                <div class="lectures-wrapper container">
+                    <div class="lectures-card">
+                        <img src="./assets/http_icon.png" alt="http_icon" />
+                        <h3 class="lectures-card-title">HTTP</h3>
+                        <p class="lectures-card-description">
+                            The Hypertext Transfer Protocol is an application
+                            layer protocol. Communication between client
+                            computers and web servers is dony by sending HTTP
+                            Requests and receiving HTTP Response
+                        </p>
+                    </div>
+                    <div class="lectures-card">
+                        <img src="./assets/css_icon.png" alt="css_icon" />
+                        <h3 class="lectures-card-title">HTML CSS</h3>
+                        <p class="lectures-card-description">
+                            HTML (HyperText Markup Language) is the standard
+                            markup language for Web pages, CSS is the language
+                            we use to style an HTML document. CSS describes how
+                            HTML elements should be displayed.
+                        </p>
+                    </div>
+                    <div class="lectures-card">
+                        <img src="./assets/js_icon.png" alt="js_icon.png" />
+                        <h3 class="lectures-card-title">JAVASCRIPT</h3>
+                        <p class="lectures-card-description">
+                            JavaScript is the programming language of the Web.
+                            JavaScript often abbreviated to JS is a lightweight,
+                            interpreted, or just-in-time compiled programming
+                            language with first-clas functions.
+                        </p>
+                    </div>
+                    <div class="lectures-card">
+                        <img src="./assets/go_icon.png" alt="go_icon" />
+                        <h3 class="lectures-card-title">GOLAND</h3>
+                        <p class="lectures-card-description">
+                            Go language is a programming language initially
+                            developed at Google. It is a statically-typed
+                            language having syntax similar to that of C. Go is
+                            used to create computer programs.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- *** Related Books *** -->
+            <section class="related-books" id="related-books">
+                <div class="title-wrapper">
+                    <h2 class="section-title">most popular books</h2>
+                </div>
+
+                <!-- PopUps -->
+                <div class="popup-wrapper" id="js-book-popup">
+                    <div class="popup-content">
+                        <!-- Closing Popup -->
+                        <a href="#related-books" class="close-popup">&times;</a>
+
+                        <div class="img-wrapper">
+                            <img
+                                src="./assets/Book1-1.jpg"
+                                alt="js_book_cover"
+                            />
+                        </div>
+                        <div class="info-wrapper">
+                            <h3 class="info-title">start reading now</h3>
+                            <p class="info-subtitle">
+                                important - please read these terms before
+                                buying the book
+                            </p>
+                            <div class="description-wrapper">
+                                <p>
+                                    JavaScript (/ˈdʒɑːvəskrɪpt/), often
+                                    abbreviated as JS, is a programming language
+                                    that is one of the core technologies of the
+                                    World Wide Web, alongside HTML and CSS. As
+                                    of 2022, 98% of websites use JavaScript on
+                                    the client side for webpage behavior, often
+                                    incorporating third-party libraries. All
+                                    major web browsers have a dedicated
+                                    JavaScript engine to execute the code on
+                                    users' devices.
+                                </p>
+                                <p>
+                                    It has dynamic typing, prototype-based
+                                    object-orientation, and first-class
+                                    functions. It is multi-paradigm, supporting
+                                    event-driven, functional, and imperative
+                                    programming styles. It has application
+                                    programming interfaces (APIs) for working
+                                    with text, dates, regular expressions,
+                                    standard data structures, and the Document
+                                    Object Model (DOM).
+                                </p>
+                            </div>
+                            <a
+                                href="https://www.amazon.com/gp/product/1491952024/"
+                                class="buy-link-btn"
+                                >Buy Now</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-wrapper" id="react-book-popup">
+                    <div class="popup-content">
+                        <!-- Closing Popup -->
+                        <a href="#related-books" class="close-popup">&times;</a>
+
+                        <div class="img-wrapper">
+                            <img
+                                src="./assets/Book2-1.jpg"
+                                alt="react_book_cover"
+                            />
+                        </div>
+                        <div class="info-wrapper">
+                            <h3 class="info-title">start reading now</h3>
+                            <p class="info-subtitle">
+                                important - please read these terms before
+                                buying the book
+                            </p>
+                            <div class="description-wrapper">
+                                <p>
+                                    JavaScript (/ˈdʒɑːvəskrɪpt/), often
+                                    abbreviated as JS, is a programming language
+                                    that is one of the core technologies of the
+                                    World Wide Web, alongside HTML and CSS. As
+                                    of 2022, 98% of websites use JavaScript on
+                                    the client side for webpage behavior, often
+                                    incorporating third-party libraries. All
+                                    major web browsers have a dedicated
+                                    JavaScript engine to execute the code on
+                                    users' devices.
+                                </p>
+                                <p>
+                                    It has dynamic typing, prototype-based
+                                    object-orientation, and first-class
+                                    functions. It is multi-paradigm, supporting
+                                    event-driven, functional, and imperative
+                                    programming styles. It has application
+                                    programming interfaces (APIs) for working
+                                    with text, dates, regular expressions,
+                                    standard data structures, and the Document
+                                    Object Model (DOM).
+                                </p>
+                            </div>
+                            <a
+                                href="https://www.amazon.com/Road-learn-React-pragmatic-React-js/dp/172004399X/ref=d_pd_sbs_sccl_2_3/130-5751593-0029724?pd_rd_w=m9yJh&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=MN81G3T0MAX9FR9FAENV&pd_rd_wg=XsyuS&pd_rd_r=c3fff6b6-0e60-41bd-b038-2e16c81b5390&pd_rd_i=172004399X&psc=1"
+                                class="buy-link-btn"
+                                >Buy Now</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-wrapper" id="go-book-popup">
+                    <div class="popup-content">
+                        <!-- Closing Popup -->
+                        <a href="#related-books" class="close-popup">&times;</a>
+
+                        <div class="img-wrapper">
+                            <img
+                                src="./assets/Book3-1.jpg"
+                                alt="go_book_cover"
+                            />
+                        </div>
+                        <div class="info-wrapper">
+                            <h3 class="info-title">start reading now</h3>
+                            <p class="info-subtitle">
+                                important - please read these terms before
+                                buying the book
+                            </p>
+                            <div class="description-wrapper">
+                                <p>
+                                    JavaScript (/ˈdʒɑːvəskrɪpt/), often
+                                    abbreviated as JS, is a programming language
+                                    that is one of the core technologies of the
+                                    World Wide Web, alongside HTML and CSS. As
+                                    of 2022, 98% of websites use JavaScript on
+                                    the client side for webpage behavior, often
+                                    incorporating third-party libraries. All
+                                    major web browsers have a dedicated
+                                    JavaScript engine to execute the code on
+                                    users' devices.
+                                </p>
+                                <p>
+                                    It has dynamic typing, prototype-based
+                                    object-orientation, and first-class
+                                    functions. It is multi-paradigm, supporting
+                                    event-driven, functional, and imperative
+                                    programming styles. It has application
+                                    programming interfaces (APIs) for working
+                                    with text, dates, regular expressions,
+                                    standard data structures, and the Document
+                                    Object Model (DOM).
+                                </p>
+                            </div>
+                            <a
+                                href="https://www.amazon.fr/dp/1491941952?psc=1&th=1&linkCode=gs2&tag=vhpoet0ca-21"
+                                class="buy-link-btn"
+                                >Buy Now</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related-books-wrapper container">
+                    <!-- Card -->
+                    <div class="related-book-card">
+                        <div class="related-book-card-inner">
+                            <div class="card-front">
+                                <div class="img-wrapper">
+                                    <img
+                                        src="./assets/Book1-2.png"
+                                        alt="js_book"
+                                    />
+                                    <div class="card-title-wrapper">
+                                        <p class="card-title js">javascript</p>
+                                        <p class="card-subtitle js">guide</p>
+                                    </div>
+                                </div>
+
+                                <ul class="book-info-list">
+                                    <li>By David Flanagan</li>
+                                    <li>Seventh Edition</li>
+                                    <li>Published at 2020</li>
+                                </ul>
+                            </div>
+                            <div class="card-back">
+                                <h3 class="book-title">JavaScript Guide</h3>
+                                <a href="#js-book-popup" class="progress-hover"
+                                    >Buy</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="related-book-card">
+                        <div class="related-book-card-inner">
+                            <div class="card-front">
+                                <div class="img-wrapper">
+                                    <img
+                                        src="./assets/Book2-2.jpg"
+                                        alt="book"
+                                    />
+                                    <div class="card-title-wrapper">
+                                        <p class="card-title react">road to</p>
+                                        <p class="card-subtitle react">react</p>
+                                    </div>
+                                </div>
+
+                                <ul class="book-info-list">
+                                    <li>By Robin Wieruch</li>
+                                    <li>2022 Edition</li>
+                                    <li>Published at 2022</li>
+                                </ul>
+                            </div>
+                            <div class="card-back">
+                                <h3 class="book-title">Road To React</h3>
+                                <a
+                                    href="#react-book-popup"
+                                    class="progress-hover"
+                                    >Buy</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="related-book-card">
+                        <div class="related-book-card-inner">
+                            <div class="card-front">
+                                <div class="img-wrapper">
+                                    <img
+                                        src="./assets/Book3-2.png"
+                                        alt="go_book"
+                                    />
+                                    <div class="card-title-wrapper">
+                                        <p class="card-title go">introducing</p>
+                                        <p class="card-subtitle go">go</p>
+                                    </div>
+                                </div>
+
+                                <ul class="book-info-list">
+                                    <li>By Caleb Doxsey</li>
+                                    <li>First Edition</li>
+                                    <li>Published at 2016</li>
+                                </ul>
+                            </div>
+                            <div class="card-back">
+                                <h3 class="book-title">Introducing Go</h3>
+                                <a href="#go-book-popup" class="progress-hover"
+                                    >Buy</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- *** Footer *** -->
+        <footer class="footer">
+            <div class="footer-wrapper container">
+                <ul class="footer-links-list">
+                    <li><a href="#">class info</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">terms</a></li>
+                </ul>
+                <div class="footer-copyright">
+                    <p>
+                        Build by TEACHING ASSISTANTS for internet Engineering
+                        course <br />
+                        ADVANCED HTML & CSS
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
